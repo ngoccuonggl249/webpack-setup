@@ -1,6 +1,17 @@
-p {
-  background-color: lightblue;
-  span {
-    background-image: url("../images/home.png");
-  }
-}
+// Variables + Mixins + Functions
+@import "helpers/variables";
+
+// Always include variable 1st !
+@import "helpers/mixins";
+
+// Vendors
+// Import jQuery lib, Bootstrap ... etc
+
+// Themes
+// If we have themes, import specific styles here
+
+// Layout
+@import "layout/common";
+@import "layout/main";
+
+// Page specific styles
