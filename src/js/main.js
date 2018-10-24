@@ -1,7 +1,7 @@
 import '../styles/main.scss';
 import homeIcon from '../images/home.png';
 import homeBig from '../images/home-big.png';
-import Print from './print';
+import {print} from './features/print';
 
 const homeImg = document.getElementById('home');
 homeImg.src = homeIcon;
@@ -11,4 +11,4 @@ bigHome.src = homeBig;
 const appName = 'Webpack Demo App!';
 console.log(`Thanks  for using ${appName}`);
 
-Print.print('Ahihi!');
+print('Ahihi!');
