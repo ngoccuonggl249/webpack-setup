@@ -1,7 +1,7 @@
 /**
  * Print
  */
-export class Print {
+export class ModuleName {
   /**
    * className
    * @return {string} 'Print'
