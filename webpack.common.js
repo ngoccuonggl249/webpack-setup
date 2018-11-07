@@ -13,6 +13,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.html$/,
+        use: ['html-loader'],
+      },
+      {
         test: /\.(png|jp(e*)g|svg)$/,
         use: [
           {
