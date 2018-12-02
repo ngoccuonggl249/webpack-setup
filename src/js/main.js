@@ -12,3 +12,9 @@ const appName = 'Webpack Demo App!';
 console.log(`Thanks  for using ${appName}`);
 
 console.log(ModuleName.className());
+
+const ahihi = () => {
+  console.log('ahihi');
+};
+
+ahihi();

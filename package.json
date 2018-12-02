@@ -30,9 +30,9 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "server": "webpack-dev-server --config webpack.dev.js",
-    "checkjs": "npx esw -w --ext .js 'src/'",
-    "autofixjs": "npx esw -w --ext .js 'src/' --fix",
-    "start": "parallelshell 'npm run build' 'npm run server' 'npm run checkjs'"
+    "checkjs": "npx esw -w --ext .js \"src\"",
+    "fixjs": "npx esw --ext .js \"src\" --fix",
+    "start": "parallelshell \"npm run server\" \"npm run checkjs\""
   },
   "keywords": [],
   "author": "",
